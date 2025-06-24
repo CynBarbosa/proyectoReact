@@ -1,0 +1,24 @@
+.containerHeader {
+  width: 100%;
+  height: 60px;
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 20%;
+  padding: 10px;
+}
+
+.buscador {
+  width: 30%;
+}
+
+.icono {
+  text-decoration: none;
+  color: white;
+  width: 5%;
+  border: 1px solid green;
+}
