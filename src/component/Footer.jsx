@@ -3,9 +3,10 @@ import "../styles/footer.css";
 
 function Footer() {
   return (
-    <>
-      <div className="containerFooter">Footer</div>
-    </>
+    <footer className="containerFooter">
+      <h4>Mi tienda</h4>
+      <span>Copyright 2025</span>
+    </footer>
   );
 }
 

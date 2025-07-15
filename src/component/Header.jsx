@@ -1,9 +1,10 @@
-import React from "react";
 import "../styles/header.css";
+import CartWidget from "./CartWidget";
+import NavBar from "./NavBar";
 
 function Header() {
   return (
-    <>
+    <header>
       <div className="containerHeader">
         <h1 className="logo">Mi tienda</h1>
         <input
@@ -12,14 +13,10 @@ function Header() {
           placeholder="Buscar producto..."
           id="search"
         />
-        <a className="icono" href="">
-          Usuario
-        </a>
-        <a className="icono" href="">
-          Carrito
-        </a>
+        <CartWidget />
       </div>
-    </>
+      <NavBar />
+    </header>
   );
 }
 

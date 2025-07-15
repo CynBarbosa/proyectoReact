@@ -1,8 +1,9 @@
-.containerFooter {
+footer {
   width: 100%;
   height: 30px;
-  background-color: blue;
-  bottom: 0;
-  position: absolute;
+  background-color: rgb(141, 66, 245);
+  padding: 5px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
