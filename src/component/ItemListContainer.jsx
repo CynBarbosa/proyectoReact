@@ -1,5 +1,5 @@
-import ItemList from "./ItemList";
 import { useParams } from "react-router-dom";
+import ItemList from "./ItemList";
 
 function ItemListContainer({ products }) {
   const { categoryId } = useParams();
