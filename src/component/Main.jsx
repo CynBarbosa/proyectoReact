@@ -2,6 +2,9 @@ import { Route, Routes } from "react-router-dom";
 import { useEffect, useState } from "react";
 import ItemListContainer from "./ItemListContainer";
 import ItemDitaleContainer from "./ItemDitaleContainer";
+import Login from "./Login";
+import Favorito from "./Favoritos";
+import Cart from "./CartWidget";
 import NotFound from "./NotFound";
 import "../styles/notFound.css";
 
@@ -69,6 +72,9 @@ function Main() {
             )
           }
         />
+        <Route path="/login" element={<Login />} />
+        <Route path="/favoritos" element={<Favorito />} />
+        <Route path="/cart" element={<Cart />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </main>

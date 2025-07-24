@@ -11,24 +11,39 @@ header {
 .containerHeader {
   width: 100%;
   height: 60px;
+  padding: 5px 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .logo {
-  width: 20%;
-  padding: 10px;
+  display: flex;
+  font-size: 25px;
+  text-shadow: 3px 3px 1px rgba(106, 0, 255, 0.808);
 }
 
 .buscador {
-  width: 30%;
+  width: 40%;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 3px 3px 1px rgba(106, 0, 255, 0.808);
 }
 
-.icono {
-  text-decoration: none;
-  color: white;
-  width: 5%;
-  border: 1px solid green;
+.containerHeaderIcons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+
+.headerIcons {
+  color: black;
+}
+.headerIcons.has-items {
+  color: rgb(250, 140, 250);
 }

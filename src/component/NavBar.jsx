@@ -14,7 +14,7 @@ function NavBar() {
         Joyeria
       </NavLink>
       <NavLink to={"/category/electronics"} className="link">
-        electronicos
+        Electronicos
       </NavLink>
       <NavLink to={"/category/women's clothing"} className="link">
         Ropa de mujer

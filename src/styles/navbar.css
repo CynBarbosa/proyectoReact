@@ -9,5 +9,11 @@ nav {
 }
 .link {
   text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.link.active:not(.link_title) {
   color: white;
 }

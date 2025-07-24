@@ -1,5 +1,7 @@
+import React from "react";
+
 function CartWidget() {
-  return <div>Carrito</div>;
+  return <div>CartWidget</div>;
 }
 
 export default CartWidget;
