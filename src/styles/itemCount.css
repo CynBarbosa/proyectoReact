@@ -1,0 +1,24 @@
+.contenedorBotonesCount {
+  width: 16%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.botonCount {
+  border: none;
+  background-color: transparent;
+  color: rgb(141, 66, 245);
+}
+.numeroCount {
+  color: white;
+  font-size: 18px;
+}
+.botonAddCount {
+  border: none;
+  background-color: rgb(141, 66, 245);
+  border-radius: 2px;
+  padding: 5px;
+  color: white;
+}

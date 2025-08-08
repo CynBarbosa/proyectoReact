@@ -1,7 +1,8 @@
 import { NavLink } from "react-router-dom";
-import { Disc3, Gitlab, Heart, ShoppingBag } from "lucide-react";
+import { Disc3, Gitlab, Heart } from "lucide-react";
 import NavBar from "./NavBar";
 import "../styles/header.css";
+import CartWidget from "./CartWidget";
 
 function Header() {
   return (
@@ -31,13 +32,7 @@ function Header() {
           >
             <Heart />
           </NavLink>
-          <NavLink
-            to={"/cart"}
-            className={`headerIcons ${1 > 0 ? "has-items" : ""}`}
-            title="Carrito"
-          >
-            <ShoppingBag />
-          </NavLink>
+          <CartWidget />
         </div>
       </div>
       <NavBar />
